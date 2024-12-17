@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Professionnel</title>
+    <title>Adam Boumbar</title>
+    <!-- Importation de la police Computer Modern -->
+    <link href="https://fonts.cdnfonts.com/css/computer-modern" rel="stylesheet">
     <style>
         /* Styles généraux */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Computer Modern', serif;
             margin: 0;
             padding: 0;
             color: #333;
@@ -15,52 +17,54 @@
             line-height: 1.6;
         }
         header {
-            background-color: #0056b3;
+            background: linear-gradient(to right, #0056b3, #00b36b);
             color: white;
-            padding: 1.5rem 0;
+            padding: 2rem 0;
             text-align: center;
+            border-bottom: 2px solid #ddd;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 300;
         }
         nav {
             text-align: center;
-            margin: 1rem 0;
+            margin: 1.5rem 0;
         }
         nav a {
             text-decoration: none;
             margin: 0 1rem;
             color: #0056b3;
             font-weight: bold;
+            transition: color 0.3s;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #00b36b;
         }
         section {
             max-width: 800px;
             margin: 2rem auto;
             background: #fff;
             padding: 1.5rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
         h2 {
             color: #0056b3;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 0.5rem 0;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
         }
         footer {
             text-align: center;
             padding: 1rem;
             background-color: #ddd;
-            margin-top: 2rem;
             color: #333;
+            margin-top: 2rem;
         }
         footer p {
             margin: 0;
@@ -70,8 +74,8 @@
 <body>
     <!-- En-tête -->
     <header>
-        <h1>Bienvenue sur mon site professionnel</h1>
-        <p>Découvrez mes projets, publications et mon parcours</p>
+        <h1>Adam Boumbar</h1>
+        <p>Élève en khâgne B/L</p>
     </header>
 
     <!-- Navigation -->
@@ -110,7 +114,7 @@
 
     <!-- Pied de page -->
     <footer>
-        <p>&copy; 2024 | Mon Site Professionnel - Conçu avec GitHub Pages</p>
+        <p>&copy; 2024 | Adam Boumbar - Site professionnel</p>
     </footer>
 </body>
 </html>
