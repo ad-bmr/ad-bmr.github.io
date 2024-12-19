@@ -29,10 +29,16 @@
             font-size: 3.5rem;
             text-transform: uppercase;
         }
+        header h1 span:first-child {
+            text-transform: capitalize; /* Adam : première lettre en majuscule */
+        }
+        header h1 span:last-child {
+            text-transform: uppercase; /* BOUMBAR : tout en majuscules */
+        }
         header p {
             margin: 0.5rem 0;
             font-size: 1.2rem;
-            color: #ddd;
+            color: white; /* Sous-titre en blanc */
         }
 
         /* Contenu principal */
@@ -54,7 +60,7 @@
             margin: 1rem 0;
         }
         main a {
-            color: #00b36b;
+            color: #0056b3; /* Liens en bleu comme les titres des sections */
             text-decoration: none;
         }
         main a:hover {
@@ -78,17 +84,16 @@
         /* Pied de page */
         footer {
             text-align: center;
-            padding: 1rem;
-            background-color: #ddd;
+            padding: 0.5rem; /* Réduction de l'épaisseur du pied de page */
+            background-color: #f1f1f1; /* Couleur plus claire pour le pied de page */
             color: #333;
-            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
     <!-- En-tête -->
     <header>
-        <h1>Adam Boumbar</h1>
+        <h1><span>Adam</span> <span>BOUMBAR</span></h1>
         <p>Élève en khâgne B/L</p>
     </header>
 
